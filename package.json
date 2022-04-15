@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint --ext .ts,.js --ignore-path .eslintignore .",
     "fmt": "eslint --ext .ts,.js --ignore-path .eslintignore . --fix",
+    "clean": "node script/clean.js",
     "build:prod": "node script/build.js production",
     "build:dev": "node script/build.js development",
     "watch": "node script/watch.js",
