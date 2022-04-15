@@ -9,6 +9,7 @@
     "clean": "node script/clean.js",
     "build:prod": "node script/build.js production",
     "build:dev": "node script/build.js development",
+    "build": "npm run build:prod",
     "watch": "node script/watch.js",
     "dev": "npm run watch",
     "start": "node out/index.js"
